@@ -1,86 +1,114 @@
 * {
+  /* Sets box-sizing to border box  */
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
 body {
+  /* sets background color of body element to white */
   background-color: #d9dcd6;
 }
 
 .header {
+  /* sets the padding to 20px top, bottom right, left  */
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  /* sets background color value to blue (#2a607c) and font color to white (#ffffff)*/
   background-color: #2a607c;
   color: #ffffff;
 }
 
 .header h1 {
+  /* displays H1 element to be inline horizontally and font-size to 48px */
   display: inline-block;
   font-size: 48px;
 }
 
 .header h1 .seo {
+  /* sets font color to be white */
   color: #d9dcd6;
 }
 
 .header nav {
+  /*add 15px padding to top of header nav and sets margin to be 20px to right*/
   padding-top: 15px;
   margin-right: 20px;
+  /* aligns nav to the right */
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 
 .header nav ul {
+  /*  sets the list-styling to none*/
   list-style-type: none;
 }
 
 .header nav ul li {
+  /* sets navigation list to be displayed inline-block */
   display: inline-block;
   margin-left: 25px;
 }
 
 a {
+  /* sets link color to white and text-decoration to none */
   color: #ffffff;
   text-decoration: none;
 }
 
 p {
+  /* font-size of paragraph element set to 16px */
   font-size: 16px;
 }
 
 .hero {
+  /* set height of hero-image to be 800px height and width to be 100% of screen-size */
   height: 800px;
   width: 100%;
+  /* sets margin-bottom to be 25px */
   margin-bottom: 25px;
+  /* link to hero image */
   background-image: url("../images/digital-marketing-meeting.jpg");
+  /* scales background size in order to fill container */
   background-size: cover;
+  /* positions background in center */
   background-position: center;
 }
 
 .float-left {
+  /* sets image position to left within container */
   float: left;
+  /* sets the margin right to be 25px */
   margin-right: 25px;
 }
 
 .float-right {
+  /* sets image position to right within container */
   float: right;
+  /* sets the margin left to be 25px */
   margin-left: 25px;
 }
 
 .content {
+  /* sets value of content to be 75% of screen-size */
   width: 75%;
+  /* sets content to display inline */
   display: inline-block;
+  /* sets margin to 20px */
   margin-left: 20px;
 }
 
 .benefits {
+  /* sets margin-right to be 20px and padding all around to be 20px */
   margin-right: 20px;
   padding: 20px;
+  /* ? */
   clear: both;
+  /* sets image position to right within container */
   float: right;
+  /* sets width to be 20% of screen-size and height to be 100% of screen-size */
   width: 20%;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -88,56 +116,80 @@ p {
 }
 
 .benefit-lead {
+  /* sets margin-bottom to be 32px */
   margin-bottom: 32px;
+  /* sets font color to white */
   color: #ffffff;
 }
 
 .benefit-brand {
+  /* sets margin-bottom to be 32px */
   margin-bottom: 32px;
+  /* sets font color to white */
   color: #ffffff;
 }
 
 .benefit-cost {
+  /* sets margin-bottom to be 32px */
   margin-bottom: 32px;
+  /* sets font color to white */
   color: #ffffff;
 }
 
 .benefit-lead h3 {
+  /* sets margin bottom to 10px */
   margin-bottom: 10px;
+  /* aligns text to center */
   text-align: center;
 }
 
 .benefit-brand h3 {
+  /* sets margin bottom to 10px */
   margin-bottom: 10px;
+  /* aligns text to center */
   text-align: center;
 }
 
 .benefit-cost h3 {
+  /* sets margin bottom to 10px */
   margin-bottom: 10px;
+  /* aligns text to center */
   text-align: center;
 }
 
 .benefit-lead img {
+  /* sets image icon to display block */
   display: block;
+  /* sets margin top and bottom to 10x and left, right to auto */
   margin: 10px auto;
+  /* sets the maximum width of the icon to be 150px */
   max-width: 150px;
 }
 
 .benefit-brand img {
+  /* sets image icon to display block */
   display: block;
+  /* sets margin top and bottom to 10px and right and left to auto */
   margin: 10px auto;
+  /* sets the maximum width of the icon to be 150px */
   max-width: 150px;
 }
 
 .benefit-cost img {
+  /* sets the image icon to be display block */
   display: block;
+  /* sets margin top and bottom to 10px and right and left to auto */
   margin: 10px auto;
+  /* sets the maximum width of the icon to be 150px */
   max-width: 150px;
 }
 
 .search-engine-optimization {
+  /* sets margin-bottom to be 20px */
   margin-bottom: 20px;
+  /* sets padding to be 50px all around  */
   padding: 50px;
+  /* sets height of container to be 300px*/
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
@@ -145,8 +197,11 @@ p {
 }
 
 .online-reputation-management {
+  /* sets margin bottom to be 20px */
   margin-bottom: 20px;
+  /* sets padding to be 50px all around */
   padding: 50px;
+  /* sets height of container to be 300px*/
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
@@ -154,8 +209,11 @@ p {
 }
 
 .social-media-marketing {
+  /* sets margin-bottom to be 20px */
   margin-bottom: 20px;
+  /* sets padding to be 50px all around  */
   padding: 50px;
+  /* sets height of container to be 300px*/
   height: 300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
@@ -163,40 +221,53 @@ p {
 }
 
 .search-engine-optimization img {
+  /* sets max-height of image to be 200px */
   max-height: 200px;
 }
 
 .online-reputation-management img {
+  /* sets max-height of image to be 200px */
   max-height: 200px;
 }
 
 .social-media-marketing img {
+  /* sets max-height of image to be 200px */
   max-height: 200px;
 }
 
 .search-engine-optimization h2 {
+  /* sets margin-bottom to be 20px */
   margin-bottom: 20px;
+  /* sets font-size 36px */
   font-size: 36px;
 }
 
 .online-reputation-management h2 {
+  /* sets margin-bottom to be 20px */
   margin-bottom: 20px;
+  /* sets font-size to be 36px */
   font-size: 36px;
 }
 
 .social-media-marketing h2 {
+  /* sets margin-bottom to be 20px */
   margin-bottom: 20px;
+  /* sets font-size to be 36px */
   font-size: 36px;
 }
 
 .footer {
+  /* sets padding to be 30px all around */
   padding: 30px;
+  /* ? */
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  /* aligns text to center */
   text-align: center;
 }
 
 .footer h4 {
+  /* sets font-size of h4 element to be 20px */
   font-size: 20px;
 }
