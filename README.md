@@ -30,30 +30,36 @@ In order to refactor the site to meet accessibility standards I began to researc
 * Using Markup language
 
 ### Identifying problems in code 
-**Div tags used to structure entire HTML**
 ```
+Div used to structure entire HTML
+
 <div class="header">
   <div class="content">
   <div class="benefits">
 <div class="footer">
- ```
-**No title defined leading to poor SEO**
-  ```<title>website</title>```
+ 
+ 
+No title defined leading to poor SEO
+
+  <title>website</title>
   
-**Heading elements not in sequential order**
-  ```
-  h2 element is in footer, whilst h3 is within site content
   
+Heading elements not in sequential order. H2 element in footer, whilst h3 is in site content
+
   <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
    </div>
+ 
+ 
+ No alt attributes
+ <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
  ```
- **No alt attributesr**
- ```<img src="./assets/images/social-media-marketing.jpg" class="float-left" />```
  
  ### Implementing solutions
- **Added semantic tags to replace div tag**
+ 
  ```
+ Added semantic tags to replace div tag
+ 
  <header>
  <nav>
  <main>
@@ -61,31 +67,32 @@ In order to refactor the site to meet accessibility standards I began to researc
  <section>
  <aside>
  <footer>
- ```
  
- **Added Title**
- ```
+ 
+ Added Title
+
  <title>Horiseon Social Solution Services</title>
- ```
- 
- **Added missing ID to nav link**
- ```
+
+
+ Added missing ID to nav link
+
  <section id="search-engine-optimization" class="search-engine-optimization">
- ```
  
- **Added alt attributes to image files**
- ```
+ 
+ Added alt attributes to image files
+ 
  <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="seo notebook on desk" />
- ```
  
- **Adjusted headings to sequential order and adjusted CSS appropriately**
- ```
+ 
+ Adjusted headings to sequential order and adjusted CSS appropriately**
+ 
  <footer class="footer">
         <h4>Made with ❤️️ by Horiseon</h4>
- ```
  
-  **Consolidated CSS**
- ```
+ 
+ 
+  Consolidated CSS
+ 
  .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
@@ -97,17 +104,6 @@ In order to refactor the site to meet accessibility standards I began to researc
 .social-media-marketing h2 {
   margin-bottom: 20px;
   font-size: 36px;
-}
-```
-  **HTML & CSS commented and spaces to allow for ease-of-read**
-  ```
-  /* Main content styling */
-
-.content {
-  /* formatting .content class */
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
 }
   ```
  
