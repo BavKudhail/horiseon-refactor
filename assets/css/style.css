@@ -1,7 +1,7 @@
 /* Universal and elements styling */
 
 * {
-  /* Setting padding and margin value to 0 and box-size: border-box */
+  /* Universal selector setting padding and margin to 0 and box-sizing to border-box  */
   box-sizing: border-box;
   padding: 0;
   margin: 0;
@@ -61,7 +61,7 @@ p {
 /* Hero image styling */
 
 .hero {
-  /* set height of hero-image to be 800px height and width to be 100% of screen-size */
+  /* Hero image is set to 100% of screen-size */
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -73,7 +73,7 @@ p {
 /* Main content styling */
 
 .content {
-  /* Class .content styling */
+  /* formatting .content class */
   width: 75%;
   display: inline-block;
   margin-left: 20px;
@@ -82,7 +82,7 @@ p {
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing 
- { /* main content 'section' styling */
+ { 
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
