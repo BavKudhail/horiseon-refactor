@@ -3,6 +3,7 @@
 ## The Goal
 Refactor code for a marketing agency so that the codebase follows accessibility standards and is optimised for search engines.
 
+![home-page screen-shot](https://s3-alpha.figma.com/hub/file/948140848/1f4d8ea7-e9d9-48b7-b70c-819482fb10fb-cover.png)
 
 ## Acceptance Criteria in order to meet goal
 * Ensure accessibility standards are met
@@ -26,5 +27,6 @@ Refactor code for a marketing agency so that the codebase follows accessibility 
 ## Usage
 
 ## Credits
+Project conducted as part of The University of Birmingham Web-Development bootcamp.
 
-## License
+
