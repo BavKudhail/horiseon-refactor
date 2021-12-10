@@ -20,6 +20,7 @@ Refactor code for a marketing agency so that the codebase follows accessibility 
 
 ## Installation
 The deployed application can be opened via the link: https://bavkudhail.github.io/horiseon-refactor/
+The repository application can be opened via the link: https://github.com/BavKudhail/horiseon-refactor
 
 ## Credits
 Project conducted as part of The University of Birmingham Web-Development bootcamp.
