@@ -1,6 +1,8 @@
 # Horiseon-Refactor
 
 ## The Goal
+Refactor code for a marketing agency so that the codebase follows accessibility standards and is optimised for search engines.
+
 
 ## Acceptance Criteria in order to meet goal
 * Ensure accessibility standards are met
