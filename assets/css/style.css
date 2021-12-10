@@ -1,5 +1,4 @@
 /* Universal and elements styling */
-
 * {
   /* Setting padding and margin value to 0 and box-size: border-box */
   box-sizing: border-box;
@@ -19,7 +18,6 @@ a {
 p {
   font-size: 16px;
 }
-
 
 /* Header styling */
 
@@ -84,7 +82,7 @@ p {
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing 
- {
+ { /* main content 'section' styling */
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -94,153 +92,79 @@ p {
 }
 
 .float-left {
-  /* sets image position to left within container */
   float: left;
-  /* sets the margin right to be 25px */
   margin-right: 25px;
 }
 
 .float-right {
-  /* sets image position to right within container */
   float: right;
-  /* sets the margin left to be 25px */
   margin-left: 25px;
 }
 
+.search-engine-optimization img,
+.online-reputation-management img,
+.social-media-marketing img {
+  max-height: 200px;
+}
 
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Additional content styling */
 
 .benefits {
-  /* sets margin-right to be 20px and padding all around to be 20px */
+  /* .benefits class formatting */
   margin-right: 20px;
   padding: 20px;
-  /* ? */
   clear: both;
-  /* sets image position to right within container */
   float: right;
-  /* sets width to be 20% of screen-size and height to be 100% of screen-size */
   width: 20%;
   height: 100%;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
 
-.benefit-lead {
-  /* sets margin-bottom to be 32px */
+.benefit-lead,
+.benefit-brand,
+.benefit-cost
+ {
   margin-bottom: 32px;
-  /* sets font color to white */
   color: #ffffff;
 }
 
-.benefit-brand {
-  /* sets margin-bottom to be 32px */
-  margin-bottom: 32px;
-  /* sets font color to white */
-  color: #ffffff;
-}
-
-.benefit-cost {
-  /* sets margin-bottom to be 32px */
-  margin-bottom: 32px;
-  /* sets font color to white */
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
-  /* sets margin bottom to 10px */
+.benefit-lead h3,
+.benefit-brand h3,
+.benefit-cost h3 
+ {
   margin-bottom: 10px;
-  /* aligns text to center */
-  text-align: center;
+  text-align: center; 
 }
 
-.benefit-brand h3 {
-  /* sets margin bottom to 10px */
-  margin-bottom: 10px;
-  /* aligns text to center */
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  /* sets margin bottom to 10px */
-  margin-bottom: 10px;
-  /* aligns text to center */
-  text-align: center;
-}
-
-.benefit-lead img {
+.benefit-lead img,
+.benefit-brand img,
+.benefit-cost img
+{
   /* sets image icon to display block */
   display: block;
-  /* sets margin top and bottom to 10x and left, right to auto */
   margin: 10px auto;
-  /* sets the maximum width of the icon to be 150px */
   max-width: 150px;
 }
 
-.benefit-brand img {
-  /* sets image icon to display block */
-  display: block;
-  /* sets margin top and bottom to 10px and right and left to auto */
-  margin: 10px auto;
-  /* sets the maximum width of the icon to be 150px */
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  /* sets the image icon to be display block */
-  display: block;
-  /* sets margin top and bottom to 10px and right and left to auto */
-  margin: 10px auto;
-  /* sets the maximum width of the icon to be 150px */
-  max-width: 150px;
-}
-
-.search-engine-optimization img {
-  /* sets max-height of image to be 200px */
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  /* sets max-height of image to be 200px */
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  /* sets max-height of image to be 200px */
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  /* sets margin-bottom to be 20px */
-  margin-bottom: 20px;
-  /* sets font-size 36px */
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  /* sets margin-bottom to be 20px */
-  margin-bottom: 20px;
-  /* sets font-size to be 36px */
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  /* sets margin-bottom to be 20px */
-  margin-bottom: 20px;
-  /* sets font-size to be 36px */
-  font-size: 36px;
-}
+/* Footer styling */
 
 .footer {
-  /* sets padding to be 30px all around */
+  /* .footer class styling */
   padding: 30px;
-  /* ? */
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  /* aligns text to center */
   text-align: center;
 }
 
 .footer h4 {
-  /* sets font-size of h4 element to be 20px */
   font-size: 20px;
 }
