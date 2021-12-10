@@ -31,10 +31,11 @@ In order to refactor the site to meet accessibility standards I began to researc
 
 ### Identifying problems in code 
 **Div tags used to structure entire HTML**
+```
 <div class="header">
   <div class="content">
 <div class="footer">
-  
+ ```
 **No title defined leading to poor SEO**
   <title>website</title>
   
