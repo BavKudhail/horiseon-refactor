@@ -3,7 +3,7 @@
 ## The Goal
 Refactor code for a marketing agency so that the codebase follows accessibility standards and is optimised for search engines.
 
-![home-page screen-shot](C:.\Users\User1\Documents\bootcamp\horiseon-refactor\assets\images\homepage-snippet.JPG)
+![home-page screen-shot](https://raw.githubusercontent.com/BavKudhail/horiseon-refactor/main/assets/images/homepage-snippet.JPG)
 
 ### Acceptance Criteria in order to meet goal
 * Ensure accessibility standards are met
