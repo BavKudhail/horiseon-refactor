@@ -18,13 +18,8 @@ Refactor code for a marketing agency so that the codebase follows accessibility 
 * Ensure CSS selectors and properties are consolidated and organized to follow semantic structure
 * Ensue application's CSS file is properly commented
 
-## The Solution
-
-## Review
-
 ## Installation
-
-## Usage
+The deployed application can be opened via the link: https://bavkudhail.github.io/horiseon-refactor/
 
 ## Credits
 Project conducted as part of The University of Birmingham Web-Development bootcamp.
