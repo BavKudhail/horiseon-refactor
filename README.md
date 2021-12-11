@@ -18,6 +18,44 @@ Refactor code for a marketing agency so that the codebase follows accessibility 
 * Ensure CSS selectors and properties are consolidated and organized to follow semantic structure
 * Ensue application's CSS file is properly commented
 
+## The Soluion
+```
+HTML Semantic tags were added replacing divs using a logical structure
+
+<header>
+<nav>
+<figure>
+<main>
+<section>
+<aside>
+<footer>
+
+-----------
+
+
+All images and icons have been updated to include 'alt' attributes. 
+
+
+CSS file was consolidated and organised to follow semantic structure
+
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing 
+ { 
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+Alt atrributes added to images
+
+
+
+```
+
 ## Installation
 The deployed application can be opened via the link: https://bavkudhail.github.io/horiseon-refactor/
 The repository application can be opened via the link: https://github.com/BavKudhail/horiseon-refactor
